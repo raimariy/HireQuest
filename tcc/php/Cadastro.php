@@ -52,6 +52,13 @@
                         <label for="certificacao">Certificação:</label>
                         <input type="text" id="certificacao" name="certificacao">
                     </div>
+                    <div class="input-box">
+                        <label for="nivel">Tipo de Usuário:</label>
+                        <select id="nivel" name="nivel" required>
+                            <option value="2">Usuário</option>
+                            <option value="1">Administrador</option>
+                        </select>
+                    </div>
 
                     <div class="botao">
                         <button type="submit" name="submit">Enviar</button>
