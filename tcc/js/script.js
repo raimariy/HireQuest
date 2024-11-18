@@ -12,15 +12,3 @@ var swiper = new Swiper(".swiper", {
   },
   keyboard: true,
 });
-
-// Toggle navigation menu for smaller screens
-const hamburger = document.querySelector(".hamburger");
-const nav = document.querySelector("nav");
-
-if (hamburger && nav) {
-  hamburger.addEventListener("click", () => nav.classList.toggle("active"));
-}
-
-document.getElementById('user').addEventListener('click', function () {
-  document.getElementById('menu-lateral').classList.toggle('sidebar_content');
-});
